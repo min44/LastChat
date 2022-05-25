@@ -1,0 +1,20 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "dotnet fable watch . --run webpack serve",
+    "watch": "dotnet fable watch . --run webpack",
+    "build": "dotnet fable . --run webpack"
+  },
+  "author": "Hui Govno",
+  "license": "ISC",
+  "dependencies": {
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "webpack": "5.72.1",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.9.0"
+  }
+}

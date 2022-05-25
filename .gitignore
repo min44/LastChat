@@ -1,0 +1,23 @@
+node_modules
+
+[Bb]in/
+[Oo]bj/
+
+.idea/
+
+riderModule.iml
+bundle.js
+package-lock.json
+
+/packages/
+/_ReSharper.Caches/
+build/
+
+.vs/
+.fake
+.ionide
+
+*.fs.js
+*.sln.DotSettings.user
+# Project exclude paths
+/Server/Public/
