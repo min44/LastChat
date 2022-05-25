@@ -19,5 +19,3 @@ build/
 
 *.fs.js
 *.sln.DotSettings.user
-# Project exclude paths
-/Server/Public/
